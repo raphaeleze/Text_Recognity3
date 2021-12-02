@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".TextRecognition"
+    >
+
+    <ImageView
+        android:id="@+id/imageViewshow"
+        android:layout_width="411dp"
+        android:layout_height="558dp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:id="@+id/btnTextrecognity"
+        android:layout_width="111dp"
+        android:layout_height="78dp"
+        android:background="@drawable/textrecognition"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:background="@drawable/back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <Button
+        android:id="@+id/btnReplace"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/replace"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="645dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnCrop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/crop"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:background="@drawable/save"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="645dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
