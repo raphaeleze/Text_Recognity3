@@ -4,6 +4,7 @@
 
 //permision for strorage
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+//permission for camera
 
     <application
         android:allowBackup="true"
@@ -16,6 +17,7 @@
             android:name=".TextRecognition"
             android:exported="false" />
         <activity
+
             android:name=".HomeActivity"
             android:exported="false" />
         <activity

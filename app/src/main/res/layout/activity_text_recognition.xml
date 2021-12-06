@@ -9,7 +9,7 @@
     >
 
     <ImageView
-        android:id="@+id/imageViewshow"
+        android:id="@+id/imageViewShow"
         android:layout_width="411dp"
         android:layout_height="558dp"
         app:srcCompat="@drawable/ic_launcher_background"
