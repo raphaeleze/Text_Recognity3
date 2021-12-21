@@ -18,4 +18,5 @@ public class TextRecognition extends AppCompatActivity {
         ImageView imageSection = findViewById(R.id.imageViewShow);
         imageSection.setImageURI(selectedImage);
     }
+
 }
